@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 87.5rem;
+  width: 90%;
+}
+
+li {
+  list-style: none;
+}
+
+.bgHome {
+  background: url("/src/assets/images/home/background-home-desktop.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 0 2.5rem 2.5rem;
+  position: relative;
+}
+
+header nav {
+  display: flex;
+  min-width: 41.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem 3rem;
+  padding: 3rem 4rem;
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(2.5rem);
+          backdrop-filter: blur(2.5rem);
+}
+
+header nav ul {
+  display: flex;
+  gap: 3rem;
+}
+
+header nav ul li a {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+}
+
+header nav ul li a span {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+header nav ul li.active {
+  border-bottom: 3px solid #fff;
+}
+
+header .logo img {
+  margin-right: 4rem;
+}
+
+.line {
+  background: #fff;
+  z-index: 1;
+  height: 1px;
+  width: 100%;
+  margin: 0 -25px 0 64px;
+  opacity: 0.25;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-40 0 $space-40 $space-40;
+  position: relative;
+}
+
+header nav {
+  display: flex;
+  min-width: 41.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: $space-48 $space-48;
+  padding: $space-48 $space-64;
+  background: $gray-900;
+  backdrop-filter: blur($space-40);
+}
+
+header nav ul {
+  display: flex;
+  gap: $space-48;
+}
+
+header nav ul li a {
+  @include headerLinks;
+}
+
+header nav ul li a span {
+  @include headerLinksBold();
+}
+
+header nav ul li.active {
+  border-bottom: 3px solid $white;
+}
+
+header .logo img {
+  margin-right: $space-64;
+}
+
+.line {
+  background: $white;
+  z-index: 1;
+  height: 1px;
+  width: 100%;
+  margin: 0 -25px 0 64px;
+  opacity: 0.25;
+}

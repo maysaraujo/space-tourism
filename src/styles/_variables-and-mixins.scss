@@ -1,0 +1,50 @@
+// Colors
+$blue-900: #0b0d17;
+$blue-300: #d0d6f9;
+$white: #fff;
+$gray-100: #979797;
+$gray-900: rgba(255, 255, 255, 0.05);
+
+// Font family
+$font-bellefair: 'Bellefair', serif;
+$font-barlow-condensed: 'Barlow Condensed', sans-serif;
+$font-barlow: 'Barlow', sans-serif;
+
+// Font size
+$font-size-1: 9rem;
+$font-size-2: 6.25rem;
+$font-size-3: 3.5rem;
+$font-size-4: 2rem;
+$font-size-5: 1.75rem;
+$font-size-6: 2.4rem;
+$font-size-7: 0.875rem;
+$font-size-8: 1rem;
+$font-size-9: 1.125rem;
+
+// Spacing
+$space-128: 8rem;
+$space-96: 6rem;
+$space-64: 4rem;
+$space-40: 2.5rem;
+$space-48: 3rem;
+$space-32: 2rem;
+$space-24: 1.5rem;
+$space-16: 1rem;
+$space-12: 0.8rem;
+$space-8: 0.6rem;
+$space-4: 0.3rem;
+$space-2: 0.15rem;
+
+// Mixins
+@mixin headerLinks() {
+  font-family: $font-barlow-condensed;
+  color: $white;
+  text-decoration: none;
+  font-size: $font-size-9;
+  letter-spacing: 2px;
+}
+
+@mixin headerLinksBold() {
+  @include headerLinks();
+  font-weight: 700;
+}
