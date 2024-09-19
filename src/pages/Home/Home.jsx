@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <section className='bgHome'>
       <Header />
+      
     </section>
   );
 };
