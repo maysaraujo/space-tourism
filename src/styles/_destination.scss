@@ -1,0 +1,27 @@
+.bgDestination {
+  background: url('/src/assets/images/destination/background-destination-desktop.jpg')
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.pick-destination {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 11.25rem;
+}
+
+.pick-destination span {
+  @include text-preset-5();
+  color: #FFF;
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+.pick-destination p {
+  @include text-preset-5();
+  color: #FFF;
+  text-transform: uppercase;
+}
